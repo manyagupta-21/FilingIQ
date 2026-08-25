@@ -1,0 +1,77 @@
+# Loan & Credit Product Policy - Digital Bank 2024
+
+## Home Loan
+
+### Overview
+The home loan product is designed for individual customers who wish to purchase, build, or renovate real estate. This is a long-term credit product with preferential interest rates and flexible procedures.
+
+### Limits and Terms
+Maximum loan amount: 70% of collateral value (LTV 70%). Loan amount ranges from 200,000,000 to 10,000,000,000 VND. Loan term from 5 to 25 years. Maximum principal grace period of 24 months.
+
+### Home Loan Interest Rates
+Years 1-2: fixed interest rate of 7.5%/year (promotional). From year 3 onwards: floating interest rate = Reference rate (12-month VNIBOR) + margin of 3.5%/year. Current estimated floating rate: 10.5-11%/year.
+
+### Collateral
+Houses, apartments, and residential land with red book/pink book ownership certificates. Properties involved in legal disputes are not accepted. Fire and explosion insurance must be purchased for the entire loan term.
+
+### Home Loan Application Documents
+Valid citizen ID/national ID card. Real estate sales contract/legal property documents. Income proof: payroll statement of the last 3-6 months or labor contract. Financial statements if the customer is self-employed. Processing time: 5-10 business days.
+
+---
+
+## SME Business Loan
+
+### Target Customers
+Small and medium-sized enterprises (SMEs) legally registered in Vietnam. Minimum operating period of 12 months. Most recent year's revenue of at least 1 billion VND.
+
+### SME Loan Products
+Working capital supplement loan: up to 5,000,000,000 VND, term up to 12 months, revolving. Fixed asset investment loan: up to 20,000,000,000 VND, term up to 7 years. Credit Line: flexible draw and repayment as needed.
+
+### SME Eligibility and Interest Rates
+Working capital loan interest rate: from 8.5%/year. Investment loan interest rate: from 9%/year. Appraisal fee: 0.1% of the loan value, minimum 1,000,000 VND. Collateral: real estate, inventory, or machinery and equipment.
+
+---
+
+## Credit Score & CIC
+
+### What is the CIC Score
+CIC (Credit Information Center) is the national credit information center managed by the State Bank of Vietnam. The CIC score reflects a customer's credit history from all credit institutions in Vietnam. The score ranges from 350-850, with higher scores indicating better loan eligibility.
+
+### CIC Debt Classification
+Group 1 (Standard debt): good, normal loan eligibility. Group 2 (Debt requiring attention): 10-90 days overdue, affects loan conditions. Group 3 (Substandard debt): 90-180 days overdue, restricted loan eligibility. Group 4 (Doubtful debt): 180-360 days overdue, very difficult to obtain loans. Group 5 (Potential loss debt): over 360 days overdue, unable to obtain loans.
+
+### Improving Your Credit Score
+Pay all loans and credit cards on time. Do not borrow from too many institutions simultaneously. Keep credit card utilization below 30%. A continuous good credit history of 12-24 months can significantly raise your score.
+
+---
+
+## Integrated Insurance
+
+### Life Insurance Combined with Savings
+Insurance partners: Manulife, Dai-ichi Life, Prudential. Insurance premiums from 1,000,000 VND/month. Benefits: death/disability risk protection + long-term wealth accumulation. Contract term: 10-30 years.
+
+### Non-Life Insurance
+Compulsory and voluntary motorcycle and car insurance. Home and property insurance. International travel insurance. 100% online contract issuance and management via the app.
+
+---
+
+## Open Banking & API
+
+### Open Banking Features
+Allows third-party applications (fintech, e-wallets, accounting software) to connect to bank accounts via standardized APIs. Compliant with Open Banking standards under the guidance of the State Bank of Vietnam. Customers retain full control over third-party application access.
+
+### Integration Partners
+E-wallets: MoMo, ZaloPay, VNPay, ShopeePay. E-commerce: Shopee, Lazada, Tiki, Sendo. Accounting software: MISA, Fast Accounting. Investment platforms: TCBS, VPS, SSI.
+
+---
+
+## AI Technology in Banking Services
+
+### AI-Powered Credit Scoring
+The AI model analyzes more than 200 variables to assess credit risk, including spending behavior, transaction history, and alternative data. Accuracy is 30% higher than traditional methods. Instant approval decisions for loans under 50,000,000 VND.
+
+### Chatbot & Virtual Assistant
+The AI chatbot handles 70% of customer inquiries without staff intervention. Understands natural Vietnamese language, dialects, and slang. Smooth handoff to staff when complex handling is required.
+
+### Fraud Detection AI
+Real-time analysis of more than 500 data points per transaction. Detects fraud within 200 milliseconds. True Positive Rate: 98.5%. False Positive Rate below 0.1%.
