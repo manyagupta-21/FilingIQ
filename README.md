@@ -6,7 +6,7 @@
 
 ## 🎯 Motivation
 
-Large Language Models (LLMs) often hallucinate when asked about specific financial figures — revenue, capital ratios, segment performance. In banking and finance, accuracy is non-negotiable.
+Large Language Models (LLMs) often hallucinate when asked about specific financial figures: revenue, capital ratios, segment performance. In banking and finance, accuracy is non-negotiable.
 
 **FilingIQ solves this** by combining semantic document retrieval with LLM generation:
 
@@ -39,11 +39,11 @@ Answer + Source Attribution
 
 **Why RAG over pure LLM?**
 
-|                          | Pure LLM                    | RAG                          |
-|--------------------------|-----------------------------|------------------------------|
-| Accuracy on specific facts | ❌ May hallucinate          | ✅ Grounded in documents      |
-| Updatable knowledge      | ❌ Retrain required          | ✅ Add docs, re-index         |
-| Source attribution       | ❌ None                     | ✅ Shows source file          |
+|                            | Pure LLM                     | RAG                          |
+|----------------------------|------------------------------|------------------------------|
+| Accuracy on specific facts | ❌ May hallucinate          | ✅ Grounded in documents     |
+| Updatable knowledge        | ❌ Retrain required         | ✅ Add docs, re-index        |
+| Source attribution         | ❌ None                     | ✅ Shows source file         |
 
 ---
 
@@ -52,7 +52,7 @@ Answer + Source Attribution
 | Component      | Technology                                      |
 |----------------|-------------------------------------------------|
 | LLM            | GPT-OSS 20B via [Groq](https://groq.com)        |
-| Embeddings     | `all-MiniLM-L6-v2` (HuggingFace)               |
+| Embeddings     | `all-MiniLM-L6-v2` (HuggingFace)                |
 | Vector Store   | FAISS (local, no server needed)                 |
 | RAG Framework  | LangChain                                       |
 | UI             | Streamlit                                       |
@@ -156,17 +156,17 @@ python ingest.py
 ```
 
 Good public sources for additional filings:
-- [SEC EDGAR](https://www.sec.gov/edgar) — 10-K, 10-Q, 8-K filings
-- Bank investor relations pages — annual reports, earnings releases
+- [SEC EDGAR](https://www.sec.gov/edgar): 10-K, 10-Q, 8-K filings
+- Bank investor relations pages: annual reports, earnings releases
 - Federal Reserve and Treasury publications
 
 ---
 
 ## ⚠️ Known Limitations
 
-- **Cross-entity queries** — questions comparing two banks simultaneously (e.g. "Compare JPMorgan and BofA revenue") may fail due to top-k retrieval not capturing both entities in the same context window
-- **Tabular data** — numeric figures embedded in tables may be retrieved at segment level rather than consolidated level depending on chunk boundaries
-- **Single-document scope** — retrieval is chunk-level; the system cannot reason across the full filing in one pass
+- **Cross-entity queries**: questions comparing two banks simultaneously (e.g. "Compare JPMorgan and BofA revenue") may fail due to top-k retrieval not capturing both entities in the same context window
+- **Tabular data**: numeric figures embedded in tables may be retrieved at segment level rather than consolidated level depending on chunk boundaries
+- **Single-document scope**: retrieval is chunk-level; the system cannot reason across the full filing in one pass
 
 These are architectural constraints of standard RAG and documented here for transparency.
 
@@ -191,7 +191,7 @@ chunk_overlap=80    # higher = less info loss at boundaries
 
 ## 🔒 Security Notes
 
-- `.env` is gitignored — never commit your API key
+- `.env` is gitignored: never commit your API key
 - `APP_PASSWORD` in `.env` enables a password gate for public exposure via ngrok
 - Bank filings are public domain, safe to redistribute
 
@@ -199,4 +199,4 @@ chunk_overlap=80    # higher = less info loss at boundaries
 
 ## 📝 License
 
-MIT License — free to use and modify.
+MIT License: free to use and modify.
