@@ -1,4 +1,4 @@
-# 📂 FilingIQ — Banking Document Intelligence
+# 📂 FilingIQ: Banking Document Intelligence
 
 > A Retrieval-Augmented Generation (RAG) system for grounded Q&A over real annual regulatory filings of major US banks. Answers are sourced directly from the documents and not hallucinated.
 
